@@ -1,0 +1,71 @@
+/*Section Styles for Every Page*/
+header{
+	grid-area: hd;
+	display: flex;
+	flex-direction: row;
+	color: #fbe9e9;
+	background-color: #846b8a;
+	padding-left: 10px;
+}
+
+nav{
+	grid-area: dr;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: #846b8a;
+}
+
+nav a{
+	color: #fbe9e9;
+}
+
+.main{
+	grid-area: mn;
+	display: flex;
+	flex-direction: column;
+}
+
+.sidebar{
+	grid-area: sd;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.sidebar a{
+	color: #fae3e3;
+}
+
+.footer{
+	grid-area: ft;
+	background-color: #846b8a;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+/*Font Awesome Icon Styling*/
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+	background: #405de6;
+	color: white;
+}
+

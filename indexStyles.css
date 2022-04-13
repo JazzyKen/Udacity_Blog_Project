@@ -1,0 +1,25 @@
+/*Styles for Elements which are only present on the Homepage*/
+.card{
+	background-color: #fae3e3;
+	border: 2px solid #846b8a;
+	margin: 5px;
+	padding: 7px;
+	flex-grow: 1;
+	display: grid;
+	grid-template-areas:
+		'tx'
+		'img'
+}
+
+.card div{
+	grid-area: tx;
+}
+
+.card img{
+	grid-area: img;
+	justify-self: center;
+}
+
+.card a{
+	color: #846b8a;
+}

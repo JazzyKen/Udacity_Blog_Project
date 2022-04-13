@@ -1,0 +1,31 @@
+/*Page structure and Media Queries*/
+.container{
+	display: grid;
+	grid-template-areas: 
+		'hd'
+		'dr'
+		'sd'
+		'mn'
+		'au'
+		'ft';
+	}
+
+@media (min-width: 900px) {
+	.container{
+		display: grid;
+		grid-template-columns: repeat(5, 20%);
+		grid-template-areas: 
+			'hd hd hd hd hd'
+			'dr dr dr dr dr'
+			'mn mn mn mn sd'
+			'au au au au sd'
+			'ft ft ft ft ft';
+	}
+
+	.card{
+	display: grid;
+	grid-template-columns: 66.66% 33.33%;
+	grid-template-areas:
+		'tx img'
+	}
+}

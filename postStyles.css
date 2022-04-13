@@ -1,0 +1,34 @@
+/*Styles for Elements which are only present on Blog Posts*/
+.post{
+	background-color: #fae3e3;
+	border: 2px solid #846b8a;
+	margin: 5px;
+	padding: 7px;
+	flex-grow: 1;
+}
+
+.post blockquote{
+	color: #846b8a;
+	font-size: 2em;
+}
+.post button{
+	background-color: #846b8a;
+	color: white;
+	font-size: 1.2em;
+}
+
+.author{
+	grid-area: au;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.author img{
+	width: 50px;
+}
+
+.bio{
+	padding-left: 8px;
+	color: #6e5973;
+}
